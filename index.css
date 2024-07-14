@@ -1,0 +1,450 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+
+}
+section{
+    max-width: 1400px;
+    min-height: 200px;
+    border: 1px solid red;
+    margin: 0 auto;
+
+}
+body{
+    background-image: url(images/back1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hed{
+    background:linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.507)),url(images/back2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+.color{
+    height: 20px;
+    width: 100%;
+    background-color: rgb(0, 255, 0);
+}
+nav{
+    height: 7vh;
+    width: 100%;
+    border-bottom: 0.5px solid rgb(54, 241, 7);
+   
+    display: flex;
+    justify-content:center;
+    padding: 0px 10px;
+    align-items: center;
+     color:  white;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+.logo img{
+    width: 50px;
+}
+
+.content{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.content p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.content h1{
+    font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.content span{
+    font-family: 'Courier New', Courier, monospace;
+}
+.btn{
+    background-color: green;
+    padding: 10px 40px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+/* why us section begin here */
+.whyus{
+    background-color: rgb(255, 255, 255);
+}
+ h2{
+    
+    padding: 20px 10px;
+    text-transform: uppercase;
+    text-align: center;
+ }
+ hr{
+    background-color: rgb(0, 108, 134);
+    height: 5px ;
+    width: 240px;
+   
+ }
+ .whyustop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ .whyustop p{
+    width: 600px;
+    margin: 10px;
+ }
+
+.whyusmiddle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.icon1{
+    padding: 10px;
+    font-family: monospace;
+    width: 350px;
+    height: 400px;
+}
+.icon1 .icon01, .icon02{
+    padding: 10px;
+    
+
+}
+.icon1 h3{
+    text-transform: uppercase;
+}
+.whyusmiddle .logo2{
+    border: 5px solid rgb(4, 170, 211);
+    border-radius: 50%;
+    width: 300px;
+    margin: 10px;
+    height: auto;
+}
+.icon1 img{
+    width: 50px;
+}
+.ctn{
+    display:block;
+    margin: 20px auto;
+    padding: 10px 50px;
+    border: 2px solid rgb(0, 124, 128);
+    background-color: transparent;
+    color: black;
+
+}
+/* why us ends here */
+
+/* customers starts  here */
+.customers{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.customers h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: rgb(102, 101, 101);
+}
+.contact{
+    display:block;
+    margin: 20px auto;
+    padding: 10px 50px;
+  background-color: aqua;
+    color: rgb(255, 255, 255);
+  border: none;
+}
+
+/* customers ends here */
+/* foooter starts here */
+.footer{
+    background-color: rgb(54, 56, 55);
+     display: flex;
+     justify-content: space-around;
+     padding: 20px;
+}
+.footer .more{
+    width: 20%;
+    height: 70%;
+    
+}
+.footer h3{
+ color: rgb(175, 174, 174);
+ text-align: left;
+ text-decoration: underline;
+ text-transform:capitalize;
+ margin-bottom: 20px;
+ 
+}
+.footer a{
+    margin: 10px 0px;
+    color: white;
+    display: block;
+    text-transform: capitalize;
+}
+.footer a:hover{
+ color: rgb(1, 44, 236);
+ margin-left: 10px;
+ font-style: italic;
+}
+.footer .email input{
+    display: block;
+    margin: 10px 0px;
+    padding: 10px 20px;
+}
+.footer textarea {
+    padding: 5x 10px;
+}
+input[type="submit"]{
+    background-color: rgb(252, 7, 7);
+    border: none;
+    color: white;
+}
+.foot{
+    max-width: 1400px;
+    border: 1px solid red;
+    margin: 0 auto;
+    background-color: grey;
+    height: 7vh;
+   text-align: center;
+  line-height: 60px;
+    width: 100%;
+}
+/* foooter ends here */
+
+/* about section  starts here */
+.aboutcontent{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+}
+
+/* about section  ends here */
+
+/* services section  starts here */
+.services{
+    background-color: white;
+
+}
+.servicescontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.serviceright h3{
+    margin: 10px 0px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+.serviceright p{
+    margin: 10px 0px;
+    font-style: oblique;
+}
+.services img{
+    width: 350px;
+    height: 500px;
+}
+.serviceright {
+    width: 50%;
+}
+li{
+  list-style: disc;
+    margin: 0px 10px;
+    margin: 3px 0px;
+}
+li a{
+    color: white;
+}
+
+
+/* services section  ends here */
+
+/*responsive starts here */
+@media only screen and ( max-width:600px ){
+    .content{
+        height: 80vh;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .content h1{
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      text-align: center;
+      font-size: 40px;
+      text-transform: uppercase;
+    }
+     .whyustop{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+     }
+     .whyustop p{
+        width:90%;
+        text-align: center;
+        margin: 10px;
+        margin: 10px;
+     }
+    
+    .whyusmiddle{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        max-width: 1200px;
+        margin: 20px auto;
+    }
+    .icon1{
+        padding: 10px;
+        font-family: monospace;
+    }
+    .icon1 .icon01, .icon02{
+        padding: 10px;
+    }
+    .icon1 h3{
+        text-transform: uppercase;
+        margin: 10px 0px;
+    }
+    .whyusmiddle .logo2{
+        border: 5px solid rgb(4, 170, 211);
+        border-radius: 50%;
+        width: 300px;
+        margin: 10px;
+        height: auto;
+    }
+    .icon1 img{
+        width: 50px;
+    }
+    .ctn{
+        display:block;
+        margin: 20px auto;
+        padding: 10px 50px;
+        border: 2px solid rgb(0, 124, 128);
+        background-color: transparent;
+        color: black;
+    
+    }
+   
+    .footer{
+         background-color: rgb(54, 56, 55);
+         display: flex;
+         justify-content: space-around;
+         flex-direction: column;
+         padding: 20px;
+    }
+    .footer .more{
+        width: 90%;
+        height: 40%;
+        margin: 10px;
+        
+    }
+    .footer h3{
+     color: rgb(175, 174, 174);
+     text-align: left;
+     text-decoration: underline;
+     text-transform:capitalize;
+     margin-bottom: 20px;
+     
+    }
+    .footer a{
+        margin: 10px 0px;
+        color: white;
+        display: block;
+        text-transform: capitalize;
+    }
+    .footer a:hover{
+     color: rgb(1, 44, 236);
+     margin-left: 10px;
+     font-style: italic;
+    }
+    .footer .email input{
+        display: block;
+        margin: 10px 0px;
+        padding: 10px 20px;
+    }
+    .footer textarea {
+        padding: 5x 10px;
+    }
+    input[type="submit"]{
+        background-color: rgb(252, 7, 7);
+        border: none;
+        color: white;
+    }
+    .foot{
+        max-width: 1400px;
+        border: 1px solid red;
+        margin: 0 auto;
+        background-color: grey;
+        height: 7vh;
+       text-align: center;
+      line-height: 60px;
+        width: 100%;
+    }
+
+     /* services section  starts here */
+.services{
+    background-color: white;
+
+}
+.servicescontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.serviceright p{
+    margin: 10px 0px;
+}
+.services img{
+    width: 300px;
+    height: 450px;
+}
+.serviceright {
+    width: 90%;
+}
+li{
+  list-style: disc;
+    margin: 0px 10px;
+   
+    margin: 3px 0px;
+}
+li a{
+    color: white;
+}
+
+
+/* services section  ends here */
+     
+}
+
+/*responsive ends here */
